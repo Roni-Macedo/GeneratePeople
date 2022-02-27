@@ -1,5 +1,7 @@
 <h1 align="center">Generate-People</h1>
 
+<h4 align="center">🚧 GeneratePeople 🚀 Em construção... 🚧</h4>
+
 # AVISO ⚠
 
 ## Para fins didáticos o mau uso do **GeneratePeople** é total responsabilidade do seu utilizador.
@@ -8,15 +10,11 @@
 
 <h2 align="center">'''o conhecimento não é crime, crime é o mau uso do conhecimento'''</h2>
 
-<h4 align="center"> 
-	🚧  GeneratePeople 🚀 Em construção...  🚧
-</h4>
-
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Antes de começar, você vai precisar ter instalado em sua máquina:
 
-- [x] [python](https://www.python.org/) 
+- [x] [python](https://www.python.org/)
 
 - [x] [Git](https://git-scm.com)
 
@@ -24,42 +22,49 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 - [x] [unidecode](https://pypi.org/project/Unidecode/)
 
-
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
-###  👨‍💻 Começando 
+### 👨‍💻 Começando
 
 ```bash
 # Clone este repositório
 $ git clone https://github.com/Roni-Macedo/GeneratePeople.git
 
-# cd GeneratePeople
-$  python generate_people.py
+$  python
 
-$ Feminino[f] masculino[m]: m
-# resultado
+>> from generate_people import GeneratePeople
+>>>
+>>>
+>>> pessoa = GeneratePeople()
+>>> print(pessoa.text_format())
 
+#  Resultado
         Dados Pessoais
         ------------------------------
-            Nome: Lucas Machado Gomes
-            CPF: 367.931.420-54
-            RG: 42.943.412-1
-            Data_Nasci: 24/5/1951
-            Idade: 71
+            Nome: Carlos Amaral Teixeira
+            CPF: 749.203.349-40
+            RG: 4.032.894-40
+            Data_Nasci: 28/11/1952
+            Idade: 70
 
         Endereço
         ------------------------------
-            CEP: 05421-010
-            Endereco: Rua Alvaro Anes
-            Numero: 170
-            Bairro: Pinheiros
-            Cidade: Sao Paulo
-            Estado: SP
+            CEP: 69029-285
+            Endereco: Rua Anita Garibald
+            Numero: 613
+            Bairro: Santo Antonio
+            Cidade: Manaus
+            Estado: AM
 
         Telefone
         ------------------------------
-            Fixo: (11) 7276-2634
-            Cel: (11) 97273-8670
-            mail: lucas.gomes@gmail.com
-
+            Fixo: (92) 8579-9435
+            Cel: (92) 94138-0593
+            mail: carlos.teixeira@uol.com.br
+>>>
 ```
+
+#### 🔜 Em breve impresão json_format()
+
+## Autor
+
+[Roni-Macedo](https://github.com/Roni-Macedo)
+

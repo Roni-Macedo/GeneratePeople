@@ -31,8 +31,3 @@ class GeneratePeople:
             Fixo: {self.telefone[0]}
             Cel: {self.telefone[1]}
             mail: {self.telefone[2]}'''
-
-
-"""p = GeneratePeople()
-
-print(p.text_format())"""
