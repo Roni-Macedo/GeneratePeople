@@ -33,6 +33,6 @@ class GeneratePeople:
             mail: {self.telefone[2]}'''
 
 
-p = GeneratePeople()
+"""p = GeneratePeople()
 
-print(p.text_format())
+print(p.text_format())"""
