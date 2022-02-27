@@ -10,9 +10,50 @@
 
 <h2 align="center">'''o conhecimento não é crime, crime é o mau uso do conhecimento'''</h2>
 
+### Introdução
+
+Inspirado no meu projeto [web-scraping](https://github.com/Roni-Macedo/web-scraping.git)
+
+GeneratePeople faz um web scraping no [site, geradordepessoas](http://www.geradordepessoas.com.br/)
+e retorna uma impressão formato texto
+
+Ex:
+```bash
+      Dados Pessoais
+        ------------------------------
+            Nome: Carlos Amaral Teixeira
+            CPF: 749.203.349-40
+            RG: 4.032.894-40
+            Data_Nasci: 28/11/1952
+            Idade: 70
+
+        Endereço
+        ------------------------------
+            CEP: 69029-285
+            Endereco: Rua Anita Garibald
+            Numero: 613
+            Bairro: Santo Antonio
+            Cidade: Manaus
+            Estado: AM
+
+        Telefone
+        ------------------------------
+            Fixo: (92) 8579-9435
+            Cel: (92) 94138-0593
+            mail: carlos.teixeira@uol.com.br
+
+
+
+```
+
+- [x] dados pessoais
+- [x] endereço
+- [x] telefone
+- [x] e-mail
+
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina:
+Antes de começar, vai precisar ter instalado na sua máquina:
 
 - [x] [python](https://www.python.org/)
 
@@ -68,3 +109,6 @@ $  python
 
 [Roni-Macedo](https://github.com/Roni-Macedo)
 
+### Licença
+
+[MIT License](https://github.com/Roni-Macedo/GeneratePeople/blob/main/LICENSE)
