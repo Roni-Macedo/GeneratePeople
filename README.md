@@ -1,6 +1,6 @@
-<h1 align="center">Generate-People</h1>
+<h1 align="center">𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞-𝐏𝐞𝐨𝐩𝐥𝐞</h1>
 
-<h4 align="center">🚧 GeneratePeople 🚀 Em construção... 🚧</h4>
+<h4 align="center">🚧 GeneratePeople   Finalizado 🚀🚀🚀 </h4>
 
 # AVISO ⚠
 
@@ -8,7 +8,7 @@
 
 **Todos os dados aqui gerados são aleatorios sem valor legal.**
 
-<h2 align="center">'''o conhecimento não é crime, crime é o mau uso do conhecimento'''</h2>
+<h2 align="center">'''𝒐 𝒄𝒐𝒏𝒉𝒆𝒄𝒊𝒎𝒆𝒏𝒕𝒐 𝒏𝒂𝒐 𝒆 𝒄𝒓𝒊𝒎𝒆, 𝒄𝒓𝒊𝒎𝒆 𝒆 𝒐 𝒎𝒂𝒖 𝒖𝒔𝒐 𝒅𝒐 𝒄𝒐𝒏𝒉𝒆𝒄𝒊𝒎𝒆𝒏𝒕𝒐'''</h2>
 
 ### Introdução
 
@@ -17,7 +17,7 @@ Inspirado no meu projeto [web-scraping](https://github.com/Roni-Macedo/web-scrap
 GeneratePeople faz um web scraping no [site, geradordepessoas](http://www.geradordepessoas.com.br/)
 e retorna uma impressão formato texto
 
-Ex:
+Exemplo 1: retorna formato texto plano.
 ```bash
       Dados Pessoais
         ------------------------------
@@ -44,6 +44,27 @@ Ex:
 
 
 
+```
+
+Exemplo 2: retorno formato json.
+
+```bash
+    {
+    "nome": "Carlos Teixeira Gomes",
+    "Cpf": "680.836.483-45",
+    "Rg": "42.943.412-1",
+    "Data_Nasci": "14/9/1955",
+    "Idade": 67,
+    "Cep": "01007-040",
+    "Endereco": "Parque Anhangabau",
+    "Numero": "542",
+    "Bairro": "Centro",
+    "Cidade": "Sao Paulo",
+    "Estado": "SP",
+    "Fixo": "(11) 3257-2672",
+    "Cel": "(11) 97295-2789",
+    "mail": "carlos.gomes@uol.com.br"
+}
 ```
 
 - [x] dados pessoais
@@ -76,8 +97,10 @@ $  python
 >>>
 >>> pessoa = GeneratePeople()
 >>> print(pessoa.text_format())
-
-#  Resultado
+>>>
+>>>Feminino[f] masculino[m]: m
+>>>
+#  Retorno
         Dados Pessoais
         ------------------------------
             Nome: Carlos Amaral Teixeira
@@ -101,9 +124,32 @@ $  python
             Cel: (92) 94138-0593
             mail: carlos.teixeira@uol.com.br
 >>>
+>>>
+>>>print(pessoa.json_format())
+>>>
+>>>Feminino[f] masculino[m]: f
+# Retorno
+    {
+    "nome": "Giovana Amaral Gomes",
+    "Cpf": "015.859.138-04",
+    "Rg": "4.032.894-40",
+    "Data_Nasci": "12/11/1957",
+    "Idade": 65,
+    "Cep": "01505-010",
+    "Endereco": "Rua Anita Ferraz",
+    "Numero": "412",
+    "Bairro": "Se",
+    "Cidade": "Sao Paulo",
+    "Estado": "SP",
+    "Fixo": "(11) 2153-9278",
+    "Cel": "(11) 92483-9799",
+    "mail": "giovana.gomes@uol.com.br"
+}
+# >>>Feminino[f] masculino[m]: 
+# passando a string vazia o retorno sera aleatorio.
 ```
 
-#### 🔜 Em breve impresão json_format()
+#### 🔜 Em breve Generate-People_v2
 
 ## Autor
 

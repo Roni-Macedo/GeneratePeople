@@ -1,3 +1,4 @@
+from random import choice
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import unidecode
@@ -6,11 +7,15 @@ import unidecode
 def man_woman():
     f = 'http://www.geradordepessoas.com.br/gerador-de-pessoas?sexo=feminino&formatacao=sim'
     m = 'http://www.geradordepessoas.com.br/gerador-de-pessoas?sexo=masculino&formatacao=sim'
+    random = [f, m]
     generate = input('Feminino[f] masculino[m]: ')
     if generate == 'f':
         return f
     elif generate == 'm':
         return m
+    elif generate == '':
+        print('is random')
+        return choice(random)
     else:
         return 'Opçao invalida'
 

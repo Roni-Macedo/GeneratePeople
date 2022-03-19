@@ -11,7 +11,7 @@ def personal_data(dados):
     cpf = lista[6]
     rg = lista[7]
     data = lista[8]
-    ano = 2022
+    ano = 2022  # passar o ano atual
     ncm = data[-4:]
     idade = ano - int(ncm)
     return nome, cpf, rg, data, idade
