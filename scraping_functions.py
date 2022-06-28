@@ -5,8 +5,8 @@ import unidecode
 
 
 def man_woman():
-    f = 'http://www.geradordepessoas.com.br/gerador-de-pessoas?sexo=feminino&formatacao=sim'
-    m = 'http://www.geradordepessoas.com.br/gerador-de-pessoas?sexo=masculino&formatacao=sim'
+    f = 'site'
+    m = 'site'
     random = [f, m]
     generate = input('Feminino[f] masculino[m]: ')
     if generate == 'f':
